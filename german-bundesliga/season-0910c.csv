@@ -1,0 +1,307 @@
+Div;Date;HomeTeam;AwayTeam;FTR;HS;AS;HY;AY;HR;AR
+D1;07.08.09;Wolfsburg;Stuttgart;H;13;14;0;0;0;0
+D1;08.08.09;Dortmund;FC Koln;H;24;7;0;1;0;0
+D1;08.08.09;Hertha;Hannover;H;10;15;3;2;0;0
+D1;08.08.09;Hoffenheim;Bayern Munich;D;9;9;0;2;0;0
+D1;08.08.09;Mainz;Leverkusen;D;8;13;1;2;0;0
+D1;08.08.09;Nurnberg;Schalke 04;A;14;9;2;1;0;0
+D1;08.08.09;Werder Bremen;Ein Frankfurt;A;22;15;1;2;1;0
+D1;09.08.09;Bochum;M'gladbach;D;28;10;3;1;0;1
+D1;09.08.09;Freiburg;Hamburg;D;17;14;2;1;0;0
+D1;15.08.09;Bayern Munich;Werder Bremen;D;9;10;1;0;0;0
+D1;15.08.09;Ein Frankfurt;Nurnberg;D;12;21;1;1;0;0
+D1;15.08.09;FC Koln;Wolfsburg;A;13;20;1;0;0;0
+D1;15.08.09;Hamburg;Dortmund;H;18;12;0;1;0;0
+D1;15.08.09;Hannover;Mainz;D;13;8;0;2;0;0
+D1;15.08.09;Leverkusen;Hoffenheim;H;14;3;3;2;0;0
+D1;15.08.09;Stuttgart;Freiburg;H;13;13;2;3;0;0
+D1;16.08.09;M'gladbach;Hertha;H;20;21;2;2;0;0
+D1;16.08.09;Schalke 04;Bochum;H;18;11;1;2;0;0
+D1;21.08.09;Hoffenheim;Schalke 04;D;17;3;4;4;0;0
+D1;22.08.09;Dortmund;Stuttgart;D;13;16;2;2;0;0
+D1;22.08.09;FC Koln;Ein Frankfurt;D;15;11;4;3;0;1
+D1;22.08.09;Freiburg;Leverkusen;A;15;12;1;2;0;0
+D1;22.08.09;Mainz;Bayern Munich;H;17;19;0;0;0;0
+D1;22.08.09;Nurnberg;Hannover;A;7;16;2;2;0;0
+D1;23.08.09;Bochum;Hertha;H;15;9;1;2;0;0
+D1;23.08.09;Werder Bremen;M'gladbach;H;20;6;1;3;0;0
+D1;23.08.09;Wolfsburg;Hamburg;A;12;27;4;2;0;0
+D1;28.08.09;M'gladbach;Mainz;H;17;9;1;2;0;0
+D1;29.08.09;Bayern Munich;Wolfsburg;H;18;18;0;0;0;0
+D1;29.08.09;Ein Frankfurt;Dortmund;D;16;14;1;3;0;0
+D1;29.08.09;Hannover;Hoffenheim;A;13;11;0;2;0;0
+D1;29.08.09;Leverkusen;Bochum;H;32;5;2;3;0;0
+D1;29.08.09;Schalke 04;Freiburg;A;15;9;0;0;0;0
+D1;29.08.09;Stuttgart;Nurnberg;D;14;11;1;1;0;0
+D1;30.08.09;Hamburg;FC Koln;H;18;12;0;2;0;0
+D1;30.08.09;Hertha;Werder Bremen;A;18;18;0;1;0;0
+D1;12.09.09;Dortmund;Bayern Munich;A;8;9;0;0;0;0
+D1;12.09.09;Freiburg;Ein Frankfurt;A;14;11;2;4;0;0
+D1;12.09.09;Hamburg;Stuttgart;H;18;14;1;3;0;0
+D1;12.09.09;Hoffenheim;Bochum;H;21;6;0;4;0;0
+D1;12.09.09;Mainz;Hertha;H;10;8;2;2;0;0
+D1;12.09.09;Nurnberg;M'gladbach;H;10;18;1;0;0;0
+D1;12.09.09;Wolfsburg;Leverkusen;A;14;15;4;2;1;1
+D1;13.09.09;FC Koln;Schalke 04;A;14;6;2;2;0;0
+D1;13.09.09;Werder Bremen;Hannover;D;16;12;2;1;0;0
+D1;18.09.09;Schalke 04;Wolfsburg;A;15;10;0;1;0;0
+D1;19.09.09;Bayern Munich;Nurnberg;H;23;5;0;0;0;0
+D1;19.09.09;Bochum;Mainz;A;12;8;4;3;0;0
+D1;19.09.09;Hannover;Dortmund;D;13;11;3;0;0;0
+D1;19.09.09;M'gladbach;Hoffenheim;A;13;23;3;2;0;0
+D1;19.09.09;Stuttgart;FC Koln;A;14;6;4;2;0;0
+D1;20.09.09;Ein Frankfurt;Hamburg;D;8;20;1;1;0;0
+D1;20.09.09;Hertha;Freiburg;A;17;16;1;0;0;0
+D1;20.09.09;Leverkusen;Werder Bremen;D;8;7;1;0;0;0
+D1;25.09.09;Nurnberg;Bochum;A;15;11;1;2;0;0
+D1;26.09.09;Dortmund;Schalke 04;A;16;12;0;1;0;0
+D1;26.09.09;Ein Frankfurt;Stuttgart;A;10;20;1;0;1;0
+D1;26.09.09;FC Koln;Leverkusen;A;7;13;3;2;1;0
+D1;26.09.09;Hamburg;Bayern Munich;H;14;9;2;3;0;0
+D1;26.09.09;Werder Bremen;Mainz;H;16;5;0;1;0;0
+D1;26.09.09;Wolfsburg;Hannover;H;11;17;2;2;0;0
+D1;27.09.09;Freiburg;M'gladbach;H;20;9;0;1;0;0
+D1;27.09.09;Hoffenheim;Hertha;H;16;7;2;1;0;0
+D1;02.10.09;Schalke 04;Ein Frankfurt;H;10;7;4;3;0;1
+D1;03.10.09;Bayern Munich;FC Koln;D;13;5;1;4;0;0
+D1;03.10.09;Bochum;Wolfsburg;D;10;22;1;2;1;0
+D1;03.10.09;Hannover;Freiburg;H;19;14;0;2;0;0
+D1;03.10.09;Leverkusen;Nurnberg;H;18;4;0;1;0;0
+D1;03.10.09;Mainz;Hoffenheim;H;4;14;6;1;0;0
+D1;03.10.09;M'gladbach;Dortmund;A;17;20;1;1;0;0
+D1;04.10.09;Hertha;Hamburg;A;12;11;2;0;0;0
+D1;04.10.09;Stuttgart;Werder Bremen;A;7;11;2;1;0;0
+D1;17.10.09;Ein Frankfurt;Hannover;H;16;11;1;2;0;0
+D1;17.10.09;FC Koln;Mainz;H;12;8;1;0;0;0
+D1;17.10.09;Freiburg;Bayern Munich;A;10;13;0;0;0;0
+D1;17.10.09;Hamburg;Leverkusen;D;7;9;1;3;0;0
+D1;17.10.09;Nurnberg;Hertha;H;18;9;1;4;0;0
+D1;17.10.09;Stuttgart;Schalke 04;A;15;10;4;3;0;0
+D1;17.10.09;Werder Bremen;Hoffenheim;H;17;7;3;7;0;0
+D1;18.10.09;Dortmund;Bochum;H;18;7;2;4;0;0
+D1;18.10.09;Wolfsburg;M'gladbach;H;18;17;1;2;0;0
+D1;23.10.09;Leverkusen;Dortmund;D;16;4;4;2;0;0
+D1;24.10.09;Bayern Munich;Ein Frankfurt;H;23;7;0;0;0;0
+D1;24.10.09;Hannover;Stuttgart;H;5;14;3;6;0;0
+D1;24.10.09;Hoffenheim;Nurnberg;H;12;3;1;2;0;0
+D1;24.10.09;Mainz;Freiburg;H;11;17;2;1;0;0
+D1;24.10.09;M'gladbach;FC Koln;D;18;5;0;1;0;0
+D1;25.10.09;Bochum;Werder Bremen;A;14;15;2;0;0;0
+D1;25.10.09;Hertha;Wolfsburg;D;18;12;1;6;0;0
+D1;25.10.09;Schalke 04;Hamburg;D;19;9;2;3;0;1
+D1;30.10.09;Dortmund;Hertha;H;19;11;2;1;0;0
+D1;31.10.09;FC Koln;Hannover;A;6;14;1;1;0;0
+D1;31.10.09;Hamburg;M'gladbach;A;14;13;2;2;0;0
+D1;31.10.09;Nurnberg;Werder Bremen;D;13;14;4;2;0;0
+D1;31.10.09;Schalke 04;Leverkusen;D;13;13;3;2;0;0
+D1;31.10.09;Stuttgart;Bayern Munich;D;9;7;3;2;0;0
+D1;31.10.09;Wolfsburg;Mainz;D;16;16;2;3;0;0
+D1;01.11.09;Ein Frankfurt;Bochum;H;13;5;4;3;0;1
+D1;01.11.09;Freiburg;Hoffenheim;A;11;18;0;0;0;0
+D1;06.11.09;Leverkusen;Ein Frankfurt;H;16;6;0;2;0;0
+D1;07.11.09;Bayern Munich;Schalke 04;D;11;7;2;4;0;0
+D1;07.11.09;Bochum;Freiburg;A;10;19;2;2;0;0
+D1;07.11.09;Hoffenheim;Wolfsburg;A;20;13;3;3;0;0
+D1;07.11.09;Mainz;Nurnberg;H;14;8;4;2;0;0
+D1;07.11.09;M'gladbach;Stuttgart;D;19;19;1;2;0;0
+D1;08.11.09;Hannover;Hamburg;D;8;11;3;5;0;0
+D1;08.11.09;Hertha;FC Koln;A;17;2;4;4;0;0
+D1;08.11.09;Werder Bremen;Dortmund;D;11;10;1;2;0;0
+D1;21.11.09;Dortmund;Mainz;D;24;7;1;0;0;0
+D1;21.11.09;Ein Frankfurt;M'gladbach;A;20;8;3;1;0;0
+D1;21.11.09;FC Koln;Hoffenheim;A;3;18;3;0;0;0
+D1;21.11.09;Freiburg;Werder Bremen;A;11;22;0;1;0;0
+D1;21.11.09;Schalke 04;Hannover;H;14;12;1;2;0;0
+D1;21.11.09;Stuttgart;Hertha;D;27;7;1;4;1;0
+D1;21.11.09;Wolfsburg;Nurnberg;A;18;23;5;5;0;0
+D1;22.11.09;Bayern Munich;Leverkusen;D;7;11;1;0;0;0
+D1;22.11.09;Hamburg;Bochum;A;17;11;1;2;0;0
+D1;27.11.09;Bochum;FC Koln;D;5;10;3;1;0;0
+D1;28.11.09;Hertha;Ein Frankfurt;A;11;12;2;3;0;0
+D1;28.11.09;Hoffenheim;Dortmund;A;14;14;3;3;1;0
+D1;28.11.09;Mainz;Hamburg;D;12;14;3;2;0;0
+D1;28.11.09;M'gladbach;Schalke 04;H;12;18;0;5;0;0
+D1;28.11.09;Nurnberg;Freiburg;A;20;7;2;4;0;0
+D1;28.11.09;Werder Bremen;Wolfsburg;D;24;8;1;4;0;0
+D1;29.11.09;Hannover;Bayern Munich;A;14;9;0;0;0;0
+D1;29.11.09;Leverkusen;Stuttgart;H;22;10;0;6;0;0
+D1;04.12.09;Bayern Munich;M'gladbach;H;15;12;3;2;0;0
+D1;05.12.09;Dortmund;Nurnberg;H;18;10;2;3;0;0
+D1;05.12.09;Ein Frankfurt;Mainz;H;13;13;3;1;0;1
+D1;05.12.09;Hamburg;Hoffenheim;D;6;12;3;1;0;0
+D1;05.12.09;Hannover;Leverkusen;D;8;12;2;2;0;0
+D1;05.12.09;Stuttgart;Bochum;D;18;7;2;2;0;1
+D1;05.12.09;Wolfsburg;Freiburg;D;28;5;3;3;0;0
+D1;06.12.09;FC Koln;Werder Bremen;D;8;18;4;3;0;0
+D1;06.12.09;Schalke 04;Hertha;H;13;10;1;2;0;1
+D1;11.12.09;Hertha;Leverkusen;D;8;10;2;1;1;0
+D1;12.12.09;Bochum;Bayern Munich;A;8;23;2;1;0;0
+D1;12.12.09;Freiburg;FC Koln;D;12;11;2;2;0;0
+D1;12.12.09;Hoffenheim;Ein Frankfurt;D;19;15;3;0;0;0
+D1;12.12.09;M'gladbach;Hannover;H;17;22;1;3;0;1
+D1;12.12.09;Nurnberg;Hamburg;A;9;17;3;2;0;0
+D1;12.12.09;Werder Bremen;Schalke 04;A;9;8;3;2;0;0
+D1;13.12.09;Mainz;Stuttgart;D;13;7;1;2;0;1
+D1;13.12.09;Wolfsburg;Dortmund;A;15;11;1;2;0;0
+D1;18.12.09;Schalke 04;Mainz;H;22;3;0;1;0;0
+D1;19.12.09;Bayern Munich;Hertha;H;17;8;0;1;0;0
+D1;19.12.09;Dortmund;Freiburg;H;7;9;0;1;0;0
+D1;19.12.09;Ein Frankfurt;Wolfsburg;D;12;13;1;1;0;0
+D1;19.12.09;Hannover;Bochum;A;14;16;3;2;0;0
+D1;19.12.09;Leverkusen;M'gladbach;H;17;8;2;1;0;0
+D1;19.12.09;Stuttgart;Hoffenheim;H;17;4;3;1;0;1
+D1;20.12.09;FC Koln;Nurnberg;H;20;4;1;1;0;1
+D1;20.12.09;Hamburg;Werder Bremen;H;10;19;4;4;1;0
+D1;15.01.10;Bayern Munich;Hoffenheim;H;15;14;0;3;0;0
+D1;16.01.10;Ein Frankfurt;Werder Bremen;H;6;14;2;2;0;0
+D1;16.01.10;Hamburg;Freiburg;H;16;8;0;0;0;0
+D1;16.01.10;Hannover;Hertha;A;12;15;5;1;0;0
+D1;16.01.10;Leverkusen;Mainz;H;28;12;2;1;0;0
+D1;16.01.10;M'gladbach;Bochum;A;20;5;1;3;0;0
+D1;16.01.10;Stuttgart;Wolfsburg;H;14;15;1;1;0;0
+D1;17.01.10;FC Koln;Dortmund;A;14;19;4;3;0;0
+D1;17.01.10;Schalke 04;Nurnberg;H;6;11;1;3;0;0
+D1;22.01.10;Freiburg;Stuttgart;A;8;19;3;1;0;0
+D1;23.01.10;Bochum;Schalke 04;D;13;13;1;0;0;0
+D1;23.01.10;Dortmund;Hamburg;H;17;12;1;3;0;0
+D1;23.01.10;Hertha;M'gladbach;D;17;9;2;2;0;0
+D1;23.01.10;Mainz;Hannover;H;9;15;4;3;0;0
+D1;23.01.10;Nurnberg;Ein Frankfurt;D;12;5;3;2;0;0
+D1;23.01.10;Werder Bremen;Bayern Munich;A;14;16;1;2;0;0
+D1;24.01.10;Hoffenheim;Leverkusen;A;10;10;2;3;0;0
+D1;24.01.10;Wolfsburg;FC Koln;A;19;10;1;1;0;0
+D1;29.01.10;Hamburg;Wolfsburg;D;21;9;3;2;0;0
+D1;30.01.10;Bayern Munich;Mainz;H;28;6;1;1;0;0
+D1;30.01.10;Ein Frankfurt;FC Koln;A;14;9;2;2;0;0
+D1;30.01.10;Hannover;Nurnberg;A;9;8;0;1;0;0
+D1;30.01.10;Hertha;Bochum;D;15;17;2;2;0;0
+D1;30.01.10;M'gladbach;Werder Bremen;H;10;15;2;3;0;0
+D1;30.01.10;Schalke 04;Hoffenheim;H;8;9;2;4;0;0
+D1;31.01.10;Leverkusen;Freiburg;H;16;5;0;2;0;0
+D1;31.01.10;Stuttgart;Dortmund;H;10;11;2;4;0;0
+D1;05.02.10;Werder Bremen;Hertha;H;17;6;1;2;0;0
+D1;06.02.10;Bochum;Leverkusen;D;8;16;2;1;0;0
+D1;06.02.10;FC Koln;Hamburg;D;17;14;2;2;0;0
+D1;06.02.10;Freiburg;Schalke 04;D;6;14;1;3;0;0
+D1;06.02.10;Hoffenheim;Hannover;H;14;4;1;4;0;0
+D1;06.02.10;Nurnberg;Stuttgart;A;16;18;2;2;0;0
+D1;06.02.10;Wolfsburg;Bayern Munich;A;17;18;2;2;0;0
+D1;07.02.10;Dortmund;Ein Frankfurt;A;13;12;1;2;0;0
+D1;07.02.10;Mainz;M'gladbach;H;9;16;1;1;0;0
+D1;12.02.10;M'gladbach;Nurnberg;H;13;16;2;0;0;0
+D1;13.02.10;Bayern Munich;Dortmund;H;10;17;0;0;0;0
+D1;13.02.10;Bochum;Hoffenheim;H;11;17;1;2;0;1
+D1;13.02.10;Hannover;Werder Bremen;A;8;16;3;0;0;0
+D1;13.02.10;Hertha;Mainz;D;12;3;0;0;0;0
+D1;13.02.10;Leverkusen;Wolfsburg;H;24;9;2;3;0;0
+D1;13.02.10;Stuttgart;Hamburg;A;12;16;1;1;0;0
+D1;14.02.10;Ein Frankfurt;Freiburg;H;19;12;1;3;0;0
+D1;14.02.10;Schalke 04;FC Koln;H;11;6;2;1;0;0
+D1;19.02.10;Hoffenheim;M'gladbach;D;20;17;3;1;0;0
+D1;20.02.10;Dortmund;Hannover;H;27;5;2;0;0;0
+D1;20.02.10;FC Koln;Stuttgart;A;9;21;1;2;0;0
+D1;20.02.10;Hamburg;Ein Frankfurt;D;11;8;2;3;0;0
+D1;20.02.10;Mainz;Bochum;D;8;10;2;1;0;0
+D1;20.02.10;Nurnberg;Bayern Munich;D;5;12;2;1;0;0
+D1;21.02.10;Freiburg;Hertha;A;12;21;2;1;0;0
+D1;21.02.10;Werder Bremen;Leverkusen;D;10;13;4;5;0;0
+D1;21.02.10;Wolfsburg;Schalke 04;H;15;12;1;0;0;0
+D1;26.02.10;Schalke 04;Dortmund;H;16;7;2;4;0;0
+D1;27.02.10;Bochum;Nurnberg;D;13;11;2;1;0;1
+D1;27.02.10;Hertha;Hoffenheim;A;11;11;2;2;0;0
+D1;27.02.10;Leverkusen;FC Koln;D;12;2;1;2;0;0
+D1;27.02.10;Mainz;Werder Bremen;A;8;7;2;3;1;0
+D1;27.02.10;M'gladbach;Freiburg;D;20;9;1;1;0;0
+D1;27.02.10;Stuttgart;Ein Frankfurt;H;17;12;2;2;0;0
+D1;28.02.10;Bayern Munich;Hamburg;H;15;12;2;2;0;0
+D1;28.02.10;Hannover;Wolfsburg;A;24;11;2;3;0;0
+D1;06.03.10;Dortmund;M'gladbach;H;16;3;0;3;0;0
+D1;06.03.10;Ein Frankfurt;Schalke 04;A;10;11;1;2;0;0
+D1;06.03.10;FC Koln;Bayern Munich;D;11;14;2;2;0;0
+D1;06.03.10;Freiburg;Hannover;A;11;10;1;1;0;0
+D1;06.03.10;Hamburg;Hertha;H;14;11;1;3;0;0
+D1;06.03.10;Werder Bremen;Stuttgart;D;17;14;1;1;0;0
+D1;06.03.10;Wolfsburg;Bochum;H;17;8;1;2;0;0
+D1;07.03.10;Hoffenheim;Mainz;A;13;14;0;1;0;0
+D1;07.03.10;Nurnberg;Leverkusen;H;10;13;1;5;0;0
+D1;12.03.10;Schalke 04;Stuttgart;H;11;11;2;2;0;0
+D1;13.03.10;Bayern Munich;Freiburg;H;21;7;3;4;0;0
+D1;13.03.10;Bochum;Dortmund;A;11;13;0;2;1;0
+D1;13.03.10;Hannover;Ein Frankfurt;H;14;13;2;2;0;2
+D1;13.03.10;Hertha;Nurnberg;A;25;16;2;1;0;0
+D1;13.03.10;Mainz;FC Koln;H;12;11;1;3;1;0
+D1;13.03.10;M'gladbach;Wolfsburg;A;25;19;1;0;0;0
+D1;14.03.10;Hoffenheim;Werder Bremen;A;9;16;1;0;0;0
+D1;14.03.10;Leverkusen;Hamburg;H;16;9;2;0;0;0
+D1;19.03.10;FC Koln;M'gladbach;D;13;10;1;1;0;0
+D1;20.03.10;Dortmund;Leverkusen;H;10;16;0;1;0;0
+D1;20.03.10;Ein Frankfurt;Bayern Munich;H;13;7;0;2;0;0
+D1;20.03.10;Freiburg;Mainz;H;10;14;3;4;0;0
+D1;20.03.10;Nurnberg;Hoffenheim;D;10;12;1;2;0;0
+D1;20.03.10;Stuttgart;Hannover;H;12;10;0;2;0;0
+D1;20.03.10;Werder Bremen;Bochum;H;15;15;3;0;0;0
+D1;21.03.10;Hamburg;Schalke 04;D;17;19;1;2;0;0
+D1;21.03.10;Wolfsburg;Hertha;A;9;18;1;1;0;0
+D1;26.03.10;Bochum;Ein Frankfurt;A;7;16;2;1;0;0
+D1;27.03.10;Bayern Munich;Stuttgart;A;9;15;1;1;0;0
+D1;27.03.10;Hannover;FC Koln;A;12;15;2;0;1;0
+D1;27.03.10;Hertha;Dortmund;D;17;11;0;3;0;0
+D1;27.03.10;Leverkusen;Schalke 04;A;6;7;3;2;0;0
+D1;27.03.10;Mainz;Wolfsburg;A;17;13;0;1;0;0
+D1;27.03.10;Werder Bremen;Nurnberg;H;15;16;0;1;1;0
+D1;28.03.10;Hoffenheim;Freiburg;D;16;9;1;2;0;0
+D1;28.03.10;M'gladbach;Hamburg;H;13;11;1;3;0;0
+D1;03.04.10;Dortmund;Werder Bremen;H;14;12;1;1;0;0
+D1;03.04.10;Ein Frankfurt;Leverkusen;H;14;15;1;5;0;1
+D1;03.04.10;FC Koln;Hertha;A;10;9;3;1;2;0
+D1;03.04.10;Freiburg;Bochum;D;19;5;0;2;0;0
+D1;03.04.10;Nurnberg;Mainz;H;20;6;1;3;0;1
+D1;03.04.10;Schalke 04;Bayern Munich;A;13;8;2;2;1;1
+D1;03.04.10;Stuttgart;M'gladbach;H;18;12;1;2;0;0
+D1;04.04.10;Hamburg;Hannover;D;10;7;3;0;0;1
+D1;04.04.10;Wolfsburg;Hoffenheim;H;10;21;0;2;0;0
+D1;09.04.10;M'gladbach;Ein Frankfurt;H;13;13;0;4;0;0
+D1;10.04.10;Hannover;Schalke 04;H;9;9;4;1;0;0
+D1;10.04.10;Hertha;Stuttgart;A;14;14;4;3;0;0
+D1;10.04.10;Hoffenheim;FC Koln;A;10;7;1;2;0;0
+D1;10.04.10;Leverkusen;Bayern Munich;D;15;5;1;4;0;0
+D1;10.04.10;Mainz;Dortmund;H;8;11;2;2;0;0
+D1;10.04.10;Werder Bremen;Freiburg;H;20;4;0;0;0;0
+D1;11.04.10;Bochum;Hamburg;A;16;13;2;1;0;0
+D1;11.04.10;Nurnberg;Wolfsburg;A;27;7;0;1;0;0
+D1;16.04.10;FC Koln;Bochum;H;14;10;1;0;0;0
+D1;17.04.10;Bayern Munich;Hannover;H;26;8;1;2;0;0
+D1;17.04.10;Freiburg;Nurnberg;H;16;13;2;2;0;0
+D1;17.04.10;Hamburg;Mainz;A;17;8;0;0;0;0
+D1;17.04.10;Schalke 04;M'gladbach;H;17;8;1;2;0;0
+D1;17.04.10;Stuttgart;Leverkusen;H;12;22;4;1;0;1
+D1;17.04.10;Wolfsburg;Werder Bremen;A;16;17;1;3;0;0
+D1;18.04.10;Dortmund;Hoffenheim;D;14;4;2;3;0;0
+D1;18.04.10;Ein Frankfurt;Hertha;D;10;11;2;0;0;0
+D1;23.04.10;Bochum;Stuttgart;A;10;14;4;0;0;0
+D1;24.04.10;Hertha;Schalke 04;A;12;11;2;1;0;0
+D1;24.04.10;Leverkusen;Hannover;H;9;9;2;2;0;0
+D1;24.04.10;Mainz;Ein Frankfurt;D;13;11;2;2;0;0
+D1;24.04.10;M'gladbach;Bayern Munich;D;10;21;2;3;0;0
+D1;24.04.10;Nurnberg;Dortmund;A;13;12;1;0;0;0
+D1;24.04.10;Werder Bremen;FC Koln;H;23;8;1;3;0;1
+D1;25.04.10;Freiburg;Wolfsburg;H;11;11;0;2;0;0
+D1;25.04.10;Hoffenheim;Hamburg;H;12;10;2;0;0;1
+D1;01.05.10;Bayern Munich;Bochum;H;19;10;2;0;0;0
+D1;01.05.10;Dortmund;Wolfsburg;D;25;15;0;2;0;0
+D1;01.05.10;Ein Frankfurt;Hoffenheim;A;14;14;2;2;0;0
+D1;01.05.10;FC Koln;Freiburg;D;5;11;1;3;0;0
+D1;01.05.10;Hamburg;Nurnberg;H;23;10;2;2;0;0
+D1;01.05.10;Hannover;M'gladbach;H;21;3;1;3;0;0
+D1;01.05.10;Leverkusen;Hertha;D;20;8;3;0;0;0
+D1;01.05.10;Schalke 04;Werder Bremen;A;12;8;1;2;0;0
+D1;01.05.10;Stuttgart;Mainz;D;16;16;3;2;0;0
+D1;08.05.10;Bochum;Hannover;A;18;14;3;2;0;0
+D1;08.05.10;Freiburg;Dortmund;H;14;11;2;2;0;0
+D1;08.05.10;Hertha;Bayern Munich;A;13;16;0;0;0;0
+D1;08.05.10;Hoffenheim;Stuttgart;D;13;9;2;2;0;0
+D1;08.05.10;Mainz;Schalke 04;D;12;10;1;2;0;0
+D1;08.05.10;M'gladbach;Leverkusen;D;10;33;1;2;0;0
+D1;08.05.10;Nurnberg;FC Koln;H;13;5;0;4;0;0
+D1;08.05.10;Werder Bremen;Hamburg;D;22;15;2;2;0;0
+D1;08.05.10;Wolfsburg;Ein Frankfurt;H;16;19;0;0;0;0
