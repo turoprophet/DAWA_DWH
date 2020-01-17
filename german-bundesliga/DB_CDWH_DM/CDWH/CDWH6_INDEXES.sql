@@ -1,5 +1,5 @@
 -- Indexes for CDWH tables
-
+USE dawa_cdwh;
 --
 -- Indexes for table `Country`
 --
@@ -19,13 +19,18 @@ ALTER TABLE `Division`
   ADD PRIMARY KEY (`idDivision`);
 
 --
--- Indexes for table `Match_results`
+-- Indexes for table `Match_results`. Primary key creation commented out in case one desires to execute all scripts
+-- for CDWH creation.
 --
 ALTER TABLE `Match_results`
-  ADD PRIMARY KEY (idMatch_results),
   ADD KEY `Team_idx` (`idTeam`),
   ADD KEY `Week_idx` (`idWeek`),
   ADD KEY `Stadium_idx` (`idStadium`);
+-- ALTER TABLE `Match_results`
+--  ADD PRIMARY KEY (`idMatch_results`),
+--  ADD KEY `Team_idx` (`idTeam`),
+--  ADD KEY `Week_idx` (`idWeek`),
+-- ADD KEY `Stadium_idx` (`idStadium`);
 
 --
 -- Indexes for table `Season`
@@ -51,8 +56,10 @@ ALTER TABLE `State`
 --
 -- Indexes for table `Team`
 --
+-- ALTER TABLE `Team`
+--  ADD PRIMARY KEY (idTeam),
+--  ADD KEY `idDivision` (`idDivision`);
 ALTER TABLE `Team`
-  ADD PRIMARY KEY (`idTeam`),
   ADD KEY `idDivision` (`idDivision`);
   
 --
@@ -61,18 +68,6 @@ ALTER TABLE `Team`
 ALTER TABLE `Week`
   ADD PRIMARY KEY (`idWeek`),
   ADD KEY `Season_idx` (`idSeason`);
-  
---
--- AUTO_INCREMENT for table `Match_results`
---
-ALTER TABLE `Match_results`
-  MODIFY `idMatch_results` int(11) NOT NULL AUTO_INCREMENT;
-  
---
--- AUTO_INCREMENT for table `Team`
---
-ALTER TABLE `Team`
-  MODIFY `idTeam` int(11) NOT NULL AUTO_INCREMENT;
   
 --
 -- AUTO_INCREMENT for table `Stadium`
@@ -92,12 +87,25 @@ ALTER TABLE `Decades`
 ALTER TABLE `Division`
   MODIFY `idDivision` int(11) NOT NULL AUTO_INCREMENT;
 
+-- 
+-- AUTO_INCREMENT for table `Match_results`. Commented out in case one desires to execute all scripts
+-- for CDWH creation.
+--
+-- ALTER TABLE match_results 
+--	MODIFY `idMatch_results` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT for table `Season`
 --
 ALTER TABLE `Season`
   MODIFY `idSeason` int(11) NOT NULL AUTO_INCREMENT;
 
+--
+-- AUTO_INCREMENT for table `Team`. Commented out in case one desires to execute all scripts for
+-- CDWH creation
+--
+-- ALTER TABLE Team 
+--	MODIFY idTeam INT NOT NULL AUTO_INCREMENT;
 --
 -- Constraints for dumped tables
 --

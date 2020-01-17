@@ -1,4 +1,10 @@
--- SQL statements for creating the DM
+-- Script for creating the DM schema
+
+DROP DATABASE IF EXISTS dawa_dm;
+
+CREATE DATABASE dawa_dm;
+
+USE dawa_dm;
 
 --
 -- Table structure for table `Location_DataMart`

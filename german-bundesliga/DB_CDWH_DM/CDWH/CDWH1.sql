@@ -1,4 +1,10 @@
--- Script for creating the CDWH tables
+-- Script for creating the CDWH schema
+
+DROP DATABASE IF EXISTS dawa_cdwh;
+
+CREATE DATABASE dawa_cdwh;
+
+USE dawa_cdwh;
 
 --
 -- Table structure for table `Country`
