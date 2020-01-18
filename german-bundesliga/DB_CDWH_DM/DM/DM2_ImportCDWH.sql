@@ -25,8 +25,8 @@ FROM dawa_cdwh.Decades d JOIN dawa_cdwh.Season s ON d.idDecade = s.idDecade
 JOIN dawa_cdwh.Week w ON s.idSeason = w.idSeason;
 
 -- Let's import the location dimension
-INSERT INTO Loc_Datamart (idPlace, stadiumName, stateName, countryName)
-SELECT std.idStadium, std.Name, stt.stateName, stt.countryName
+INSERT INTO Loc_Datamart (idPlace, stadiumName, stateName, countryName, teamName)
+SELECT std.idStadium, std.Name, stt.stateName, stt.countryName, std.teamName
 FROM dawa_cdwh.Stadium std JOIN dawa_cdwh.State ON std.stateName = stt.stateName;
 
 -- Let's import the team dimension

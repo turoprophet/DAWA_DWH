@@ -14,7 +14,8 @@ CREATE TABLE `Location_DataMart` (
   `idPlace` int(11) NOT NULL,
   `stadiumName` varchar(45) NOT NULL,
   `stateName` varchar(45) NOT NULL,
-  `countryName` varchar(45) NOT NULL
+  `countryName` varchar(45) NOT NULL,
+  `teamName` varchar(45) NOT NULL
 );
 
 --
