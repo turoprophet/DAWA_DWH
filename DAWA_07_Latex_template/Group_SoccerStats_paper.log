@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.13)  20 JAN 2020 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.13)  20 JAN 2020 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -160,7 +160,17 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(./Group_SoccerStats_paper.aux)
+(./Group_SoccerStats_paper.aux
+
+LaTeX Warning: Label `fig:probov' multiply defined.
+
+
+LaTeX Warning: Label `fig:probov' multiply defined.
+
+
+LaTeX Warning: Label `fig:probov' multiply defined.
+
+)
 \openout1 = `Group_SoccerStats_paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 317.
@@ -205,27 +215,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 356.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 356.
-
-
-LaTeX Warning: Reference `sec:dataunderstanding' on page 1 undefined on input l
-ine 381.
-
-
-LaTeX Warning: Reference `sec:concept' on page 1 undefined on input line 382.
-
-
-LaTeX Warning: Reference `sec:impl' on page 1 undefined on input line 382.
-
-
-LaTeX Warning: Reference `sec:further' on page 1 undefined on input line 382.
-
-
-LaTeX Warning: Reference `sec:analy' on page 1 undefined on input line 382.
-
-
-LaTeX Warning: Reference `sec:concl' on page 1 undefined on input line 382.
-
-[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
@@ -273,29 +263,24 @@ File: images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png Gra
 phic file (type png)
 <use images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png>
 Package pdftex.def Info: images/BarGraph_Comparison_BayernMunich-Dortmund_LastT
-hreeSeasons.png  used on input line 467.
+hreeSeasons.png  used on input line 468.
 (pdftex.def)             Requested size: 252.0pt x 142.5953pt.
-[2 <./images/Snowflake.jpeg> <./images/datamart.jpeg> <./images/Pivot_Performan
-ce_Top5-LastSeason_In_Seasons201819-201718.png>]
+[2 <./images/Snowflake.jpeg> <./images/datamart.jpeg>]
 No file Group_SoccerStats_paper.bbl.
-[3
-
- <./images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png> <.
-/images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png>]
+[3 <./images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png> <./
+images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png> <./ima
+ges/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png>]
 (./Group_SoccerStats_paper.aux)
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2227 strings out of 492163
- 36633 string characters out of 6129076
- 103851 words of memory out of 5000000
+ 2226 strings out of 492163
+ 36627 string characters out of 6129076
+ 103995 words of memory out of 5000000
  6595 multiletter control sequences out of 15000+600000
- 37815 words of font info for 73 fonts, out of 8000000 for 9000
+ 36708 words of font info for 72 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  30i,6n,26p,971b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
@@ -303,7 +288,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times
 /utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/t
 exlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Group_SoccerStats_paper.pdf (3 pages, 250959 bytes).
+Output written on Group_SoccerStats_paper.pdf (3 pages, 251530 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
