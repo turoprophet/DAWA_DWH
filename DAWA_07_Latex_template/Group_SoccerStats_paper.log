@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.13)  20 JAN 2020 14:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.13)  20 JAN 2020 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -160,20 +160,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(./Group_SoccerStats_paper.aux
-
-LaTeX Warning: Label `fig:probov' multiply defined.
-
-
-LaTeX Warning: Label `fig:probov' multiply defined.
-
-
-LaTeX Warning: Label `fig:probov' multiply defined.
-
-
-LaTeX Warning: Label `fig:probov' multiply defined.
-
-)
+(./Group_SoccerStats_paper.aux)
 \openout1 = `Group_SoccerStats_paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 317.
@@ -218,7 +205,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 356.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 356.
-<images/Snowflake.jpeg, id=1, 807.015pt x 781.92125pt>
+
+
+LaTeX Warning: Reference `sec:dataunderstanding' on page 1 undefined on input l
+ine 381.
+
+
+LaTeX Warning: Reference `sec:concept' on page 1 undefined on input line 382.
+
+
+LaTeX Warning: Reference `sec:impl' on page 1 undefined on input line 382.
+
+
+LaTeX Warning: Reference `sec:further' on page 1 undefined on input line 382.
+
+
+LaTeX Warning: Reference `sec:analy' on page 1 undefined on input line 382.
+
+
+LaTeX Warning: Reference `sec:concl' on page 1 undefined on input line 382.
+
+[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<images/Snowflake.jpeg, id=10, 807.015pt x 781.92125pt>
 File: images/Snowflake.jpeg Graphic file (type jpg)
 <use images/Snowflake.jpeg>
 Package pdftex.def Info: images/Snowflake.jpeg  used on input line 415.
@@ -230,10 +241,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.69997> on input line 422.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.5> on input line 422.
- [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 423--424
 []\OT1/ptm/m/n/11 stateName: Name of the state -> Baden-
  []
@@ -243,47 +251,51 @@ File: images/datamart.jpeg Graphic file (type jpg)
 <use images/datamart.jpeg>
 Package pdftex.def Info: images/datamart.jpeg  used on input line 444.
 (pdftex.def)             Requested size: 252.0pt x 211.15492pt.
-<images/Pivot_Performance_Teams_Per_LocHomeAndAway_StateBayern.png, id=12, 534.
-99875pt x 187.19937pt>
-File: images/Pivot_Performance_Teams_Per_LocHomeAndAway_StateBayern.png Graphic
- file (type png)
-<use images/Pivot_Performance_Teams_Per_LocHomeAndAway_StateBayern.png>
-Package pdftex.def Info: images/Pivot_Performance_Teams_Per_LocHomeAndAway_Stat
-eBayern.png  used on input line 454.
-(pdftex.def)             Requested size: 252.0pt x 88.17795pt.
-<images/Chart_Performance_Teams_Per_LocAway_StateBayern.png, id=14, 630.85687pt
- x 246.9225pt>
-File: images/Chart_Performance_Teams_Per_LocAway_StateBayern.png Graphic file (
-type png)
-<use images/Chart_Performance_Teams_Per_LocAway_StateBayern.png>
-Package pdftex.def Info: images/Chart_Performance_Teams_Per_LocAway_StateBayern
-.png  used on input line 460.
-(pdftex.def)             Requested size: 252.0pt x 98.63536pt.
-<images/Chart_Performance_Teams_Per_Season.png, id=15, 444.66125pt x 236.885pt>
-
-File: images/Chart_Performance_Teams_Per_Season.png Graphic file (type png)
-<use images/Chart_Performance_Teams_Per_Season.png>
-Package pdftex.def Info: images/Chart_Performance_Teams_Per_Season.png  used on
- input line 466.
-(pdftex.def)             Requested size: 252.0pt x 134.24872pt.
+<images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png, id=12, 7
+60.0395pt x 243.91125pt>
+File: images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png Grap
+hic file (type png)
+<use images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png>
+Package pdftex.def Info: images/Pivot_Performance_Top5-LastSeason_In_Seasons201
+819-201718.png  used on input line 454.
+(pdftex.def)             Requested size: 252.0pt x 80.87057pt.
+<images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png, id=14
+, 575.14874pt x 388.45125pt>
+File: images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png G
+raphic file (type png)
+<use images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png>
+Package pdftex.def Info: images/BarGraph_Performance_Top5-LastSeason_In_Seasons
+201819-201718.png  used on input line 460.
+(pdftex.def)             Requested size: 252.0pt x 170.19594pt.
+<images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png, id=15, 
+663.07726pt x 375.20175pt>
+File: images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png Gra
+phic file (type png)
+<use images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png>
+Package pdftex.def Info: images/BarGraph_Comparison_BayernMunich-Dortmund_LastT
+hreeSeasons.png  used on input line 467.
+(pdftex.def)             Requested size: 252.0pt x 142.5953pt.
 [2 <./images/Snowflake.jpeg> <./images/datamart.jpeg> <./images/Pivot_Performan
-ce_Teams_Per_LocHomeAndAway_StateBayern.png> <./images/Chart_Performance_Teams_
-Per_LocAway_StateBayern.png>]
+ce_Top5-LastSeason_In_Seasons201819-201718.png>]
 No file Group_SoccerStats_paper.bbl.
 [3
 
- <./images/Chart_Performance_Teams_Per_Season.png>]
+ <./images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png> <.
+/images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png>]
 (./Group_SoccerStats_paper.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2225 strings out of 492163
- 36295 string characters out of 6129076
- 104987 words of memory out of 5000000
- 6594 multiletter control sequences out of 15000+600000
- 36708 words of font info for 72 fonts, out of 8000000 for 9000
+ 2227 strings out of 492163
+ 36633 string characters out of 6129076
+ 103851 words of memory out of 5000000
+ 6595 multiletter control sequences out of 15000+600000
+ 37815 words of font info for 73 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  30i,6n,26p,971b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
@@ -291,7 +303,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times
 /utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/t
 exlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Group_SoccerStats_paper.pdf (3 pages, 254714 bytes).
+Output written on Group_SoccerStats_paper.pdf (3 pages, 250959 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

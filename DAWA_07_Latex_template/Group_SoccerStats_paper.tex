@@ -389,11 +389,11 @@ As part of \emph{Data Understanding}  phase for our project, the dataset we used
 \section{Tools} \label{sec:concept}
 The tools we used are: 
 \begin{enumerate}
-\item Xampp to connect to MySQL Database
-\item Libre Office to perform analytic report
-\item Microsoft Excel to convert to a CSV-file
-\item MySQL Workbench to create the ER-Diagram and the database
-\item Anaylsis with Microsoft Excel and MySQL
+\item XAMPP to launch apache and MySQL servers on the local machine
+\item Microsoft Excel to cleanse and upload data to the databases
+\item MySQL Workbench to create and forward engineer ER-Diagrams into the databases
+\item MySQL Workbench and PHPMyAdmin to execute all SQL scripts to transform raw data into the data warehouse
+\item Microsoft Excel to generate Pivot Tables and Charts for analytical purposes
 \end{enumerate}
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -451,22 +451,24 @@ Here i will descripe our Images!
 
 \begin{figure}[htb]
 	\centering
-		\includegraphics[width=1.0\columnwidth]{images/Pivot_Performance_Teams_Per_LocHomeAndAway_StateBayern}
-	\caption{Performance of the Team Bayern Munich per Location }
-	\label{fig:probov}
+		\includegraphics[width=1.0\columnwidth]{images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718}
+	\caption{Performance from 5 Teams in the last two Seasion }
+	\label{tab:probov}
 \end{figure}
 \begin{figure}[htb]
 	\centering
-		\includegraphics[width=1.0\columnwidth]{images/Chart_Performance_Teams_Per_LocAway_StateBayern}
-	\caption{Performance of the Team Bayern Munich away from Home}
+		\includegraphics[width=1.0\columnwidth]{images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718}
+	\caption{Performance from 5 Teams in the last two Seasion }
 	\label{fig:probov}
 \end{figure}
+
 \begin{figure}[htb]
 	\centering
-		\includegraphics[width=1.0\columnwidth]{images/Chart_Performance_Teams_Per_Season}
-	\caption{Performance of the Teams per Season}
+		\includegraphics[width=1.0\columnwidth]{images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons}
+	\caption{Comparison between Dortmund and Bayern Munich over the last 3 season}
 	\label{fig:probov}
-\end{figure} 
+\end{figure}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion} \label{sec:concl}
 We have shown in this paper that the raw data is used to create a Data Warehouse, a data mart and also a detailed analysis with MySQL. We have check the data quality and have been reduced to the relevance of data needed for the Project. The data can be managed effectively and the analysis can be created. With our Data Warehouse it’s possible to create a forecast of a new game with information about the games from the last seasons. With this information we can get easily and compact understandable information about the matches, goals, red- and yellow cards and shots. Additionally, it’s necessary to say which team has a chance of winning a tournament or which team can win the game at home or away from home. The Project was for our team a new experience and the first insight in the development from a big dataset to make a data warehouse with the focus on the reduced data. This insight was for our team a good experience. 
