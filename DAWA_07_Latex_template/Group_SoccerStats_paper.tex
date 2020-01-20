@@ -377,19 +377,16 @@ The task is to enable useful information out of the data. It’s fact that in no
 Several data from the past Soccer Bundeliga games are needed, to give the soccer interested an overview. The fans and viewers can get easily and compact understandable information about the matches, goals, red- and yellow cards and shots. These Soccer data are relevant for the Soccer follower and also for these who do bets. For the league position is the information about the matches, points and results necessary. 
 
 \subsection{Structure of the Paper} \label{subsec:struct}
-In order to achieve a logical structure of the project, it’s sensible to orientate us by  the CRISP-DM model. The following steps don’t include only the CRISP-DM approach!
-The paper is structured as follows: in Section~\ref{sec:dataunderstanding} we present the availability of Open Data we use in this project.
-Then, in Section~\ref{sec:concept} we describe our tools, visualize our Data Warehouse and create an analysis with MySql. Section~\ref{sec:impl} we descripe the Data Preparation for our Data Warehouse. In Section~\ref{sec:further} we describe our general solution. Finally, we conclude our work in Section~\ref{sec:concl} with our achievments and a feedback of this project.
+In order to achieve a logical structure of the project, it’s sensible to orientate us by the CRISP-DM model. The following steps don’t include only the CRISP-DM approach!
+The paper is structured as follows: in Section~\ref{sec:dataunderstanding} we show where we have our data from and explain this. 
+Then, in Section~\ref{sec:concept} we describe our tool we used. Section~\ref{sec:impl} we descripe the Data Preparation for our Data Warehouse and our Snowflakes. In Section~\ref{sec:further} we explain the input our Data and the CDHW and the Data Mart.  In Section~\ref{sec:analy} we analyze the result of our data. Finally, we conclude our work in Section~\ref{sec:concl} with our achievments and a feedback of this project.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Open Data: German Bundesliga } \label{sec:dataunderstanding}
 As part of \emph{Data Understanding}  phase for our project, the dataset we used is sourced from http://www.football-data.co.uk/ website and is open data. This dataset contains data for last 10 seasons of German Bundesliga including the current season.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Concept for Problem} \label{sec:concept}
-In this Section we descripe the concept of our problems and our definition.
-We want to give the fans a good view of the last seasons games.
-
+\section{Tools} \label{sec:concept}
 The tools we used are: 
 \begin{enumerate}
 \item Xampp to connect to MySQL Database
@@ -431,15 +428,8 @@ It’s follows a describtion of some columns:
   \item idSeason: season 18/19 
 \end{itemize}
 
-\begin{figure}[htb]
-	\centering
-		\includegraphics[width=1.0\columnwidth]{images/datamart}
-	\caption{Data Mart}
-	\label{fig:probov}
-\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Going from raw data to useful information} \label{sec:further}
-	
+\section{DWH and Data Mart} \label{sec:further}
 Once the raw data had been uploaded to a MySQL server and transformed in a staging database, the CDWH and DM had to be set up and their tables
 properly structured, linked according to existing data contained in the staging area and knowledge on range of the data set. SQL scripts were 
 created and executed to carry out this labour. 
@@ -449,7 +439,14 @@ they play? Are they better when playing home or is it neglectable? What teams sc
 
 The result of these queries were imported using Microsoft Excel to create pivot tables and generate charts to perform analytics.
 
-\section{Result} \label{sec:further}
+\begin{figure}[htb]
+	\centering
+		\includegraphics[width=1.0\columnwidth]{images/datamart}
+	\caption{Data Mart}
+	\label{fig:probov}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Analysis} \label{sec:analy}
 Here i will descripe our Images!
 
 \begin{figure}[htb]
