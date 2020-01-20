@@ -386,12 +386,12 @@ Then, in Section~\ref{sec:concept} we describe our tools to create our Data Ware
 As part of \emph{Data Understanding}  phase for our project, the dataset we used is sourced from http://www.football-data.co.uk/ website and is open data. This dataset contains data for last 10 seasons of German Bundesliga including the current season. The data itself contained the results of the matches themselves, and did not specify the location of each game.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Concept for Problem} \label{sec:concept}
-The goal is to give users an understandable view of the performance of a team. Part of that goal is that users can obtain answers based on questions such as when and where. The raw data did not contain specifically the parameters for one team only, nor did it contain explicit information of the location of the match, thus solutions had to be found. Then was the question on how to treat all of this data to achieve the other part of the goal: how to make it an understandable view? For that, the following tools have been used:
+The goal is to give users an understandable view of the performance of a team. Part of that goal is that users can obtain answers based on questions such as when and where. The raw data does not contain any special parameters for only one team, but only one line with 30 different parameters for each game between the away and home team. There is also no information about the location of the game or the stadium. We therefore had to define a solution concept. We decided to select relevant parameters, delete the irrelevant ones and upload the necessary ones manually. We used the following tools:
 
-The tools we used are: 
 \begin{enumerate}
 \item XAMPP to launch apache \& MySQL servers on the local machine
-\item Microsoft Excel to cleanse and upload data to the databases
+\item Microsoft Excel to cleanse the databases
+\item phpMyAdmin for uploading the data intro the databases
 \item MySQL Workbench to create and forward engineer ER-Diagrams into the databases
 \item MySQL workbench \& PHPMyAdmin to execute all SQL scripts to transform raw data into the data warehouse
 \item Microsoft Excel to generate Pivot Tables and Charts for analytical purposes
@@ -425,12 +425,12 @@ All these information would be compiled and distributed into the data warehouse 
 It’s follows a description of some columns:
 
 \begin{itemize}
-  \item countyName: Name of the country -> Germany
-  \item stateName: Name of the state -> Baden-Württemberg, Rheinland-Pfalz
-  \item idStadium: Stadium identification -> Allianz Arena
-  \item idTeam: Unique team name -> FC Bayern Münich 
-  \item idDivision: which division -> 1. Bundesliga
-  \item weekNum: Play day in german is called week -> 2. Play day = 2. Week 
+  \item countyName: Name of the country -$>$ Germany
+  \item stateName: Name of the state -$>$ Baden-Württemberg, Rheinland-Pfalz
+  \item idStadium: Stadium identification -$>$ Allianz Arena
+  \item idTeam: Unique team name -$>$ FC Bayern Münich 
+  \item idDivision: which division -$>$ 1. Bundesliga
+  \item weekNum: Play day in german is called week -$>$ 2. Play day = 2. Week 
   \item idSeason: season 18/19 
 \end{itemize}
 
