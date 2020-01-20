@@ -358,7 +358,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-Within the content of the course “Data Warehousing” an analytical project was carried out concerned with Soccer statistics about the Bundesliga in Germany. The soccer statistics data for the Bundesliga involves a huge amount of data and also a huge load. To give the soccer interested fans and viewers a useful overview as summarization, to all games of their teams and rivals, we use the collected data and present the relevant information in compact form for publics understanding. To achieve this goal, our lab project presents a data warehouse and performs some analysis, which are explained in this paper, to get the relevant data from a understandable perspective.
+Within the content of the course “Data Warehousing” an analytical project was carried out that concerned with Soccer statistics about the Bundesliga in Germany. The soccer statistics data for the Bundesliga involves a huge amount of data about matches, without directly giving information on the performance of a team. To give the soccer interested fans and viewers an useful overview to a team's performance, we use the collected data and transform it into relevant information in compact form for public's understanding. To achieve this goal, our lab project followed the principles of the CRISP-DM process and implemented a data warehouse on top of which we performed some analysis, which are explained in this paper, to get the relevant data from a understandable perspective.
 \end{abstract}
 
 % For peerreview papers, this IEEEtran command inserts a page break and
@@ -370,33 +370,31 @@ Within the content of the course “Data Warehousing” an analytical project wa
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 \label{sec:intro}
-The fact is that football is the most popular sport on this planet. Games from previous seasons are compared again and again to better follow the development of teams. 
-The task is to enable useful information out of the data. It’s fact that in no other sport are so many bets placed as in football. Among other things, the data which we have handled also find a certain use for this purpose. The assignment involved the collection and preparation of the open data for information- and reporting purposes by applying various techniques that were introduced over the course. During the project to create a Data Warehouse, data mart and worked following the CRISP-DM process.
+The fact is that football is the most popular sport on this planet. Games from previous seasons are compared again and again to understand the development of teams better; and it’s fact that in no other sport are so many bets placed as in football. Understanding how a team performs might give a better profiling and in turn, better profit for betting platforms or gamblers. The task was then to enable useful information out of the data, and involved the collection and preparation of the open data for improving the quality and availability of the data for analytical and reporting purposes. Following the CRISP-DM process, in order to create a good model that would suit the goal in question, various techniques introduced over the course were applied to generate a Data Warehouse that would model the information gathered in a scheme that would answer to the question: What was the team's performance in the past seasons?
 
 \subsection{Scenario} \label{subsec:scenario}
-Several data from the past Soccer Bundeliga games are needed, to give the soccer interested an overview. The fans and viewers can get easily and compact understandable information about the matches, goals, red- and yellow cards and shots. These Soccer data are relevant for the Soccer follower and also for these who do bets. For the league position is the information about the matches, points and results necessary. 
+Several data from the past Soccer Bundeliga games are needed, to give the soccer interested an overview. The fans and viewers can get easily and compact understandable information about the matches, goals, red- and yellow cards and shots. These Soccer data are relevant for the followers and also for these who do bets. For the league position the information about the matches, points and results is necessary. 
 
 \subsection{Structure of the Paper} \label{subsec:struct}
 In order to achieve a logical structure of the project, it’s sensible to orientate us by  the CRISP-DM model. The following steps don’t include only the CRISP-DM approach!
 The paper is structured as follows: in Section~\ref{sec:dataunderstanding} we present the availability of Open Data we use in this project.
-Then, in Section~\ref{sec:concept} we describe our tools, visualize our Data Warehouse and create an analysis with MySql. Section~\ref{sec:impl} we descripe the Data Preparation for our Data Warehouse. In Section~\ref{sec:further} we describe our general solution. Finally, we conclude our work in Section~\ref{sec:concl} with our achievments and a feedback of this project.
+Then, in Section~\ref{sec:concept} we describe our tools to create our Data Warehouse and to generate analysis from it. Section~\ref{sec:impl} we descripe the Data Preparation for our Data Warehouse. In Sections~\ref{sec:transf} and~\ref{sec:further} we describe our general solution and show its results. Finally, we conclude our work in Section~\ref{sec:concl} with our achievments and a feedback of this project.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Open Data: German Bundesliga } \label{sec:dataunderstanding}
-As part of \emph{Data Understanding}  phase for our project, the dataset we used is sourced from http://www.football-data.co.uk/ website and is open data. This dataset contains data for last 10 seasons of German Bundesliga including the current season.
+As part of \emph{Data Understanding}  phase for our project, the dataset we used is sourced from http://www.football-data.co.uk/ website and is open data. This dataset contains data for last 10 seasons of German Bundesliga including the current season. The data itself contained the results of the matches themselves, and did not specify the location of each game.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Concept for Problem} \label{sec:concept}
-In this Section we descripe the concept of our problems and our definition.
-We want to give the fans a good view of the last seasons games.
+The goal is to give users an understandable view of the performance of a team. Part of that goal is that users can obtain answers based on questions such as when and where. The raw data did not contain specifically the parameters for one team only, nor did it contain explicit information of the location of the match, thus solutions had to be found. Then was the question on how to treat all of this data to achieve the other part of the goal: how to make it an understandable view? For that, the following tools have been used:
 
 The tools we used are: 
 \begin{enumerate}
-\item Xampp to connect to MySQL Database
-\item Libre Office to perform analytic report
-\item Microsoft Excel to convert to a CSV-file
-\item MySQL Workbench to create the ER-Diagram and the database
-\item Anaylsis with Microsoft Excel and MySQL
+\item XAMPP to launch apache & MySQL servers on the local machine
+\item Microsoft Excel to cleanse and upload data to the databases
+\item MySQL Workbench to create and forward engineer ER-Diagrams into the databases
+\item MySQL workbench & PHPMyAdmin to execute all SQL scripts to transform raw data into the data warehouse
+\item Microsoft Excel to generate Pivot Tables and Charts for analytical purposes
 \end{enumerate}
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -413,6 +411,9 @@ sum of 9 matches per match week. The Date information was then transformed to an
 Other information of interest that did not come from the data source was the location of each match. From the 10 seasons the data source supplied,
 a list of all teams that took part playing as home team was made and then information on the name of the stadium and the state in which the stadium
 is located were searched to compile another data source.
+
+All these information would be compiled and distributed into the data warehouse design for the goal. Its ER Diagram looks like this:
+
 \begin{figure}[htb]
 	\centering
 		\includegraphics[width=1.0\columnwidth]{images/Snowflake}
@@ -420,7 +421,9 @@ is located were searched to compile another data source.
 	\label{fig:probov}
 \end{figure}
 %
-It’s follows a describtion of some columns:
+
+It’s follows a description of some columns:
+
 \begin{itemize}
   \item countyName: Name of the country -> Germany
   \item stateName: Name of the state -> Baden-Württemberg, Rheinland-Pfalz
@@ -431,26 +434,29 @@ It’s follows a describtion of some columns:
   \item idSeason: season 18/19 
 \end{itemize}
 
+But since the purpose of a Data Warehouse is also to make queries quicker and simpler, we extracted the data from the data warehouse into a data mart which looks like this:
+
 \begin{figure}[htb]
 	\centering
 		\includegraphics[width=1.0\columnwidth]{images/datamart}
 	\caption{Data Mart}
 	\label{fig:probov}
 \end{figure}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Going from raw data to useful information} \label{sec:further}
+\section{Going from raw data to useful information} \label{sec:transf}
 	
 Once the raw data had been uploaded to a MySQL server and transformed in a staging database, the CDWH and DM had to be set up and their tables
 properly structured, linked according to existing data contained in the staging area and knowledge on range of the data set. SQL scripts were 
 created and executed to carry out this labour. 
 
 On the data mart database, views were created to query for commonly interesting information, such as: How well does a team do depending on where
-they play? Are they better when playing home or is it neglectable? What teams scored the most goals per season?
+they play? Are they better when playing home or is it neglectable? How do teams perform per season?
 
 The result of these queries were imported using Microsoft Excel to create pivot tables and generate charts to perform analytics.
 
 \section{Result} \label{sec:further}
-Here i will descripe our Images!
+Here i will descripe our I
 
 \begin{figure}[htb]
 	\centering
