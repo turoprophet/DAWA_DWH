@@ -318,8 +318,7 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Scientific paper for the Laboratory project of the module 
-Data Warehousing: Soccer statistics 
+\title{Data Warehousing: Soccer statistics 
 }
 %
 %
@@ -372,7 +371,7 @@ Within the content of the course “Data Warehousing” an analytical project wa
 \section{Introduction}
 \label{sec:intro}
 The fact is that football is the most popular sport on this planet. Games from previous seasons are compared again and again to better follow the development of teams. 
-The task is to enable useful information out of the data. It’s fact that in no other sport are so many bets placed as in football. Among other things, the data which we have handled also find a certain use for this purpose. The assignment involved the collection and preparation of the open data for information- and reporting purposes by applying various techniques that were introduced over the course. During the project to create a Data Warehouse, data mart and worked following the CRISPM-DM process.
+The task is to enable useful information out of the data. It’s fact that in no other sport are so many bets placed as in football. Among other things, the data which we have handled also find a certain use for this purpose. The assignment involved the collection and preparation of the open data for information- and reporting purposes by applying various techniques that were introduced over the course. During the project to create a Data Warehouse, data mart and worked following the CRISP-DM process.
 
 \subsection{Scenario} \label{subsec:scenario}
 Several data from the past Soccer Bundeliga games are needed, to give the soccer interested an overview. The fans and viewers can get easily and compact understandable information about the matches, goals, red- and yellow cards and shots. These Soccer data are relevant for the Soccer follower and also for these who do bets. For the league position is the information about the matches, points and results necessary. 
@@ -384,16 +383,16 @@ Then, in Section~\ref{sec:concept} we describe our tools, visualize our Data War
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Open Data: MyDataSource} \label{sec:dataunderstanding}
+\section{Open Data: German Bundesliga } \label{sec:dataunderstanding}
 As part of \emph{Data Understanding}  phase for our project, the dataset we used is sourced from http://www.football-data.co.uk/ website and is open data. This dataset contains data for last 10 seasons of German Bundesliga including the current season.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Concept for Problem X} \label{sec:concept}
+\section{Concept for Problem} \label{sec:concept}
 In this Section we descripe the concept of our problems and our definition.
 We want to give the fans a good view of the last seasons games.
 
 The tools we used are: 
 \begin{enumerate}
-	\item Xampp to connect to MySQL Database
+\item Xampp to connect to MySQL Database
 \item Libre Office to perform analytic report
 \item Microsoft Excel to convert to a CSV-file
 \item MySQL Workbench to create the ER-Diagram and the database
@@ -403,10 +402,17 @@ The tools we used are:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data Preparation} \label{sec:impl}
-First step is to get an overview of the available data and their quality. To create an analysis with Excel and problems with the quality of data should be identified. In this case, we select the data that is relevant for the selected task (columns, rows). We step follows by the import of the data into the local MySQL RDBMS. More details following: The data preparation create a final data set that forms the bases for the next phase of modeling The goal is good data quality! We have to check amongst others the completeness: there should be not NULL’s for example. Correctness clears if have any typos or missing data. The check if the data is outdated or from the period the need. The download the CSV-file in Microsoft Excel. We have to create  a final data set, that forms the basis for the next phase of modeling. The next step is to create a Snowflake schema as you can see in figure 1. Our Snowflake schema consists of the fact table and the three dimensions time, location and team displayed in the finest granularity!  
-This section deals with the implementation of the concept described in Section~\ref{sec:concept} following the \emph{Data Preparation}
-phase of CRISP-DM. 
+After inspecting the csv files from the data source, it was realized that many columns were not needed. Thus keeping only
+the information of interest such as date and division of the match played, home and away team, and for both of them the amount of goals,
+shots, shots on target, red and yellow cards were kept too.
 
+The date format in the data source didn't match the representation we preferred to talk about: Typically sports leagues are distributed into 
+match weeks or rounds, where teams get to face one team per round and all teams play. The german bundesliga has in total 34 match weeks, with a
+sum of 9 matches per match week. The Date information was then transformed to an integer value between [1, 34] for this representation.
+
+Other information of interest that did not come from the data source was the location of each match. From the 10 seasons the data source supplied,
+a list of all teams that took part playing as home team was made and then information on the name of the stadium and the state in which the stadium
+is located were searched to compile another data source.
 \begin{figure}[htb]
 	\centering
 		\includegraphics[width=1.0\columnwidth]{images/Snowflake}
@@ -432,29 +438,44 @@ It’s follows a describtion of some columns:
 	\label{fig:probov}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{More Sections} \label{sec:further}
+\section{Going from raw data to useful information} \label{sec:further}
+	
+Once the raw data had been uploaded to a MySQL server and transformed in a staging database, the CDWH and DM had to be set up and their tables
+properly structured, linked according to existing data contained in the staging area and knowledge on range of the data set. SQL scripts were 
+created and executed to carry out this labour. 
+
+On the data mart database, views were created to query for commonly interesting information, such as: How well does a team do depending on where
+they play? Are they better when playing home or is it neglectable? What teams scored the most goals per season?
+
+The result of these queries were imported using Microsoft Excel to create pivot tables and generate charts to perform analytics.
+
+\begin{figure}[htb]
+	\centering
+		\includegraphics[width=1.0\columnwidth]{images/Pivot_Performance_Teams_Per_LocHomeAndAway_StateBayern}
+	\caption{Performance of the Team Bayern Munich per Location }
+	\label{fig:probov}
+\end{figure}
+\begin{figure}[htb]
+	\centering
+		\includegraphics[width=1.0\columnwidth]{images/Chart_Performance_Teams_Per_LocAway_StateBayern}
+	\caption{Performance of the Team Bayern Munich away from Home}
+	\label{fig:probov}
+\end{figure}
+\begin{figure}[htb]
+	\centering
+		\includegraphics[width=1.0\columnwidth]{images/Chart_Performance_Teams_Per_Season}
+	\caption{Performance of the Teams per Season}
+	\label{fig:probov}
+\end{figure} 
+
+\section{Result} \label{sec:further}
 At the following points we describe our general solution:
 \begin{itemize}
   \item with the idMatch results we save all  games results of a match
   \item with the idStadium you get the information, where the game is located
   \item with the idTeam you can get the IDs of the participating teams
   \item with the idWeek you can see the play Week of the game
-\end{itemize}	
-You can see in the figures 3 and 4 we performed the analysis of our Data Warehouse with the MySQL.
-In figures 3 you see all games of the season 18/19 where the home team was Bayern Munich and in figures 4 the away team. In both figures you can see the date of the game and the opposing team of Bayern Munich. In the column "FTHG" you see the "Full Time Home Goals" and in the column "FTAG" you see the "Full Time Away Goals". With this both coulmn you can analyze the goals of the teams. In the last column "FTR" you see the "Full Time Result" where the "H" stands for home win, the "D" for draw and the "A" for away team wins.
-
-\begin{figure}[htb]
-	\centering
-		\includegraphics[width=1.0\columnwidth]{images/home}
-	\caption{Home Team likes Bayern Munich}
-	\label{fig:probov}
-\end{figure}\begin{figure}[htb]
-	\centering
-		\includegraphics[width=1.0\columnwidth]{images/away}
-	\caption{Away Team likes Bayern Munich}
-	\label{fig:probov}
-\end{figure} 
-
+\end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion} \label{sec:concl}
 We have shown in this paper that the raw data is used to create a Data Warehouse, a data mart and also a detailed analysis with MySQL. We have check the data quality and have been reduced to the relevance of data needed for the Project. The data can be managed effectively and the analysis can be created. With our Data Warehouse it’s possible to create a forecast of a new game with information about the games from the last seasons. With this information we can get easily and compact understandable information about the matches, goals, red- and yellow cards and shots. Additionally, it’s necessary to say which team has a chance of winning a tournament or which team can win the game at home or away from home. The Project was for our team a new experience and the first insight in the development from a big dataset to make a data warehouse with the focus on the reduced data. This insight was for our team a good experience. 
