@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.13)  20 JAN 2020 19:31
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.20)  21 JAN 2020 22:50
->>>>>>> 99b5dfc17f15f4c7f27e0404609cd53c41b3c813
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.20)  21 JAN 2020 23:31
 entering extended mode
 **./Group_SoccerStats_paper.tex
 (Group_SoccerStats_paper.tex
@@ -247,15 +243,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.5> on input line 427.
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
-[]\OT1/ptm/m/n/11 stateName: Name of the state -$\OML/cmm/m/it/10.95 >$ \OT1/pt
-m/m/n/11 Baden-
-=======
 Underfull \hbox (badness 10000) in paragraph at lines 428--429
 []\OT1/ptm/m/n/11 stateName: Name of the state $\OMS/cmsy/m/n/10.95 !$ \OT1/ptm
 /m/n/11 Baden-
->>>>>>> 99b5dfc17f15f4c7f27e0404609cd53c41b3c813
  []
 
 <images/datamart.jpeg, id=10, 656.4525pt x 550.055pt>
@@ -264,7 +254,7 @@ File: images/datamart.jpeg Graphic file (type jpg)
 Package pdftex.def Info: images/datamart.jpeg  used on input line 440.
 (pdftex.def)             Requested size: 252.0pt x 211.15492pt.
 [2 <./images/Snowflake.jpeg> <./images/datamart.jpeg>]
-<images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png, id=17, 7
+<images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png, id=16, 7
 60.0395pt x 243.91125pt>
 File: images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png Grap
 hic file (type png)
@@ -272,7 +262,7 @@ hic file (type png)
 Package pdftex.def Info: images/Pivot_Performance_Top5-LastSeason_In_Seasons201
 819-201718.png  used on input line 463.
 (pdftex.def)             Requested size: 252.0pt x 80.87057pt.
-<images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png, id=19
+<images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png, id=18
 , 575.14874pt x 388.45125pt>
 File: images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png G
 raphic file (type png)
@@ -280,7 +270,7 @@ raphic file (type png)
 Package pdftex.def Info: images/BarGraph_Performance_Top5-LastSeason_In_Seasons
 201819-201718.png  used on input line 469.
 (pdftex.def)             Requested size: 252.0pt x 170.19594pt.
-<images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png, id=20, 
+<images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png, id=19, 
 663.07726pt x 375.20175pt>
 File: images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png Gra
 phic file (type png)
@@ -305,19 +295,6 @@ Here is how much of TeX's memory you used:
  6575 multiletter control sequences out of 15000+200000
  36708 words of font info for 72 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
-<<<<<<< HEAD
- 30i,6n,26p,987b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/
-urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.
-pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/20
-19/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Group_SoccerStats_paper.pdf (3 pages, 261114 bytes).
-PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
-=======
  30i,6n,26p,1089b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/eugen/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/eugen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
@@ -327,10 +304,9 @@ ts/type1/urw/times/utmb8a.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/urw/times/utmbi8a.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/eugen/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Group_SoccerStats_paper.pdf (3 pages, 266743 bytes).
+Output written on Group_SoccerStats_paper.pdf (3 pages, 266744 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
->>>>>>> 99b5dfc17f15f4c7f27e0404609cd53c41b3c813
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

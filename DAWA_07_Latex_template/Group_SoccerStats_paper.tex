@@ -358,7 +358,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-It's a fact that football is the most popular sport on this planet. Matches from previous seasons are compared again and again to understand the development of teams; and it's a fact that no other sport like football is source to so many bets in the world. Understanding how a team performs might give a better profiling and in turn, better profit for betting platforms or gamblers. Having understandable information that makes it easy -not only for fans and profit-seekers, but also for algorithms- to extract and gain valuable knowledge from is often not an straightforward solution to come upon. It is very likely that, to gain such knowledge, one may try to come up with solutions following inadequate processes that in turn lead to inconsistent or erroneous results. By following the CRISP-DM model and implementing a Data Warehouse, we have developed a solution that allows for better analyzing and reporting, producing the desired knowledge and providing a framework that lessens the hardship of recreating the results obtained consistently. 
+It's a fact that soccer is the most popular sport on this planet. Matches from previous seasons are compared again and again to understand the development of teams; and it's a fact that no other sport like soccer is source to so many bets in the world. Understanding how a team performs might give a better profiling and in turn, better profit for betting platforms or gamblers. Having understandable information that makes it easy -not only for fans and profit-seekers, but also for algorithms- to extract and gain valuable knowledge from is often not an straightforward solution to come upon. It is very likely that, to gain such knowledge, one may try to come up with solutions following inadequate processes that in turn lead to inconsistent or erroneous results. By following the CRISP-DM model and implementing a Data Warehouse, we have developed a solution that allows for better analyzing and reporting, producing the desired knowledge and providing a framework that lessens the hardship of recreating the results obtained consistently. 
 \end{abstract}
 
 % For peerreview papers, this IEEEtran command inserts a page break and
@@ -386,16 +386,12 @@ Then, in Section~\ref{sec:concept} we describe our tools to create our Data Ware
 As part of \emph{Data Understanding}  phase for our project, the dataset we used is sourced from http://www.football-data.co.uk/ website and is open data. This dataset contains data for last 10 seasons of German Bundesliga including the current season. The data itself contained the results of the matches themselves, and did not specify the location of each game.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Concept for Problem} \label{sec:concept}
-<<<<<<< HEAD
-The goal is to give users an understandable view of the performance of a team. Part of that goal is that users can obtain answers based on questions such as when and where. The raw data does not contain any special parameters for only one team, but only one line with 30 different parameters for each game between the away and home team. There is also no information about the location of the game or the stadium. We therefore had to define a solution concept. We decided to select relevant parameters, delete the irrelevant ones and upload the necessary ones manually. We used the following tools:
-=======
 The goal is to give users an understandable view of the performance of a team. Part of that goal is that users can obtain answers based on questions such as when and where. The raw data did not contain specifically the parameters for one team only, nor did it contain explicit information of the location of the match, therefore solutions had to be found. Then was the question on how to treat all of this data to achieve the other part of the goal: how to make it an understandable view? For that, the following tools have been used:
->>>>>>> 99b5dfc17f15f4c7f27e0404609cd53c41b3c813
 
+The tools we used are: 
 \begin{enumerate}
 \item XAMPP to launch apache \& MySQL servers on the local machine
-\item Microsoft Excel to cleanse the databases
-\item phpMyAdmin for uploading the data intro the databases
+\item Microsoft Excel to cleanse and upload data to the databases
 \item MySQL Workbench to create and forward engineer ER-Diagrams into the databases
 \item MySQL workbench \& PHPMyAdmin to execute all SQL scripts to transform raw data into the data warehouse
 \item Microsoft Excel to generate Pivot Tables and Charts for analytical purposes
@@ -428,21 +424,12 @@ All this information would be compiled and distributed into the data warehouse d
 It’s follows a description of some columns:
 
 \begin{itemize}
-<<<<<<< HEAD
-  \item countyName: Name of the country -$>$ Germany
-  \item stateName: Name of the state -$>$ Baden-Württemberg, Rheinland-Pfalz
-  \item idStadium: Stadium identification -$>$ Allianz Arena
-  \item idTeam: Unique team name -$>$ FC Bayern Münich 
-  \item idDivision: which division -$>$ 1. Bundesliga
-  \item weekNum: Play day in german is called week -$>$ 2. Play day = 2. Week 
-=======
   \item countyName: Name of the country \(\rightarrow\) Germany
   \item stateName: Name of the state \(\rightarrow\) Baden-Württemberg, Rheinland-Pfalz
   \item idStadium: Stadium identification \(\rightarrow\) Allianz Arena
   \item idTeam: Unique team name \(\rightarrow\) FC Bayern Münich 
   \item idDivision: which division \(\rightarrow\) 1. Bundesliga
   \item weekNum: Play day in german is called week \(\rightarrow\) 2. Play day = 2. Week 
->>>>>>> 99b5dfc17f15f4c7f27e0404609cd53c41b3c813
   \item idSeason: season 18/19 
 \end{itemize}
 
