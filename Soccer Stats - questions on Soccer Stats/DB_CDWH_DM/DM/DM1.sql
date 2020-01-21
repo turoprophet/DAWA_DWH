@@ -1,4 +1,10 @@
--- SQL statements for creating the DM
+-- Script for creating the DM schema
+
+DROP DATABASE IF EXISTS dawa_dm;
+
+CREATE DATABASE dawa_dm;
+
+USE dawa_dm;
 
 --
 -- Table structure for table `Location_DataMart`
@@ -8,7 +14,8 @@ CREATE TABLE `Location_DataMart` (
   `idPlace` int(11) NOT NULL,
   `stadiumName` varchar(45) NOT NULL,
   `stateName` varchar(45) NOT NULL,
-  `countryName` varchar(45) NOT NULL
+  `countryName` varchar(45) NOT NULL,
+  `teamName` varchar(45) NOT NULL
 );
 
 --
