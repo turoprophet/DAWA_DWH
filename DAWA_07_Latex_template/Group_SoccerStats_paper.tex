@@ -381,7 +381,6 @@ The paper is structured as follows: in Section~\ref{sec:dataunderstanding} we pr
 Then, in Section~\ref{sec:concept} we describe our tools to create our Data Warehouse and to generate analysis from it. Section~\ref{sec:impl} we descripe the Data Preparation for our Data Warehouse. In Section~\ref{sec:further} we explain the input our Data and the CDHW and the Data Mart.  In Section~\ref{sec:analy} we analyze the result of our data. Finally, we conclude our work in Section~\ref{sec:concl} with our achievments and a feedback of this project.
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Open Data: German Bundesliga } \label{sec:dataunderstanding}
 As part of \emph{Data Understanding}  phase for our project, the dataset we used is sourced from http://www.football-data.co.uk/ website and is open data. This dataset contains data for last 10 seasons of German Bundesliga including the current season. The data itself contained the results of the matches themselves, and did not specify the location of each game.
@@ -444,25 +443,18 @@ But since the purpose of a Data Warehouse is also to make queries quicker and si
 	\label{fig:probov}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{DWH and Data Mart} \label{sec:further}
 Once the raw data had been uploaded to a MySQL server and transformed in a staging database, the CDWH and DM had to be set up and their tables
 properly structured, linked according to existing data contained in the staging area and knowledge on range of the data set. SQL scripts were 
 created and executed to carry out this labour. 
 
 On the data mart database, views were created to query for commonly interesting information, such as: How well does a team do depending on where
-they play? Are they better when playing home or is it neglectable? How do teams perform per season?
+they play? Are they better when playing home or is it neglectable? What teams scored the most goals per season?
 
 The result of these queries were imported using Microsoft Excel to create pivot tables and generate charts to perform analytics.
 
-
-\begin{figure}[htb]
-	\centering
-		\includegraphics[width=1.0\columnwidth]{images/datamart}
-	\caption{Data Mart}
-	\label{fig:probov}
-\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Analysis} \label{sec:analy}
 In Figure 3 and 4 we analyze 5 teams in a period of the last 2 seasons. In the column Sum of Goals we see all Goals from a team and in the column Sum of Goals against we see the Goals from the Opposing team. In the next column Sum of Matches we can see that they all had the same number of matches. To determine the best team, we can see in the column Sum of Win, the number of games won. Also we can see in the column Sum of Shots how many shots were shot the team and by the column Sum of Shots on target how many shots were shot at the goal. Finally we see the number of red and yellow cards.
