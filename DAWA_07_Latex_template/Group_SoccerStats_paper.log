@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.13)  20 JAN 2020 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.1.20)  21 JAN 2020 22:50
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**Group_SoccerStats_paper.tex
-(./Group_SoccerStats_paper.tex
+**./Group_SoccerStats_paper.tex
+(Group_SoccerStats_paper.tex
 LaTeX2e <2019-10-01> patch level 3
-(c:/texlive/2019/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ieeetran\IEEEtran.
+cls"
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -18,7 +18,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 03.
-(c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -107,37 +107,43 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count94
 \@IEEEtranrubishbin=\box28
-) (c:/texlive/2019/texmf-dist/tex/latex/cite/cite.sty
+) ("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
 Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
 )
-(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigur
+e.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip44
 \subfigcapskip=\skip45
 \subfigcaptopadj=\dimen128
@@ -152,15 +158,17 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\subfigur
+e.cfg")
 \subfig@top=\skip48
 \subfig@bottom=\skip49
 )
-(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(./Group_SoccerStats_paper.aux
+(Group_SoccerStats_paper.aux
 
 LaTeX Warning: Label `fig:probov' multiply defined.
 
@@ -187,7 +195,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 317.
 LaTeX Font Info:    ... okay on input line 317.
 
 -- Lines per column: 52 (exact).
-(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen130
@@ -200,46 +210,48 @@ LaTeX Font Info:    ... okay on input line 317.
 \MPnumerator=\count103
 \makeMPintoPDFobject=\count104
 \everyMPtoPDFconversion=\toks17
-) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+)
+("C:\Users\eugen\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
+pdf-base.sty"
 Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-
-(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 356.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 356.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 356.
- [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+Underfull \vbox (badness 2253) has occurred while \output is active []
+
+ [1{C:/Users/eugen/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-<images/Snowflake.jpeg, id=10, 807.015pt x 781.92125pt>
+<images/Snowflake.jpeg, id=9, 807.015pt x 781.92125pt>
 File: images/Snowflake.jpeg Graphic file (type jpg)
 <use images/Snowflake.jpeg>
 Package pdftex.def Info: images/Snowflake.jpeg  used on input line 419.
 (pdftex.def)             Requested size: 252.0pt x 244.15889pt.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 428.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 427.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 428.
+(Font)              <11> on input line 427.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 428.
+(Font)              <7.69997> on input line 427.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 428.
+(Font)              <5.5> on input line 427.
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
-[]\OT1/ptm/m/n/11 stateName: Name of the state -> Baden-
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+[]\OT1/ptm/m/n/11 stateName: Name of the state $\OMS/cmsy/m/n/10.95 !$ \OT1/ptm
+/m/n/11 Baden-
  []
 
-<images/datamart.jpeg, id=11, 656.4525pt x 550.055pt>
+<images/datamart.jpeg, id=10, 656.4525pt x 550.055pt>
 File: images/datamart.jpeg Graphic file (type jpg)
 <use images/datamart.jpeg>
-Package pdftex.def Info: images/datamart.jpeg  used on input line 441.
+Package pdftex.def Info: images/datamart.jpeg  used on input line 440.
 (pdftex.def)             Requested size: 252.0pt x 211.15492pt.
 [2 <./images/Snowflake.jpeg> <./images/datamart.jpeg>]
 <images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png, id=16, 7
@@ -248,7 +260,7 @@ File: images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png Grap
 hic file (type png)
 <use images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png>
 Package pdftex.def Info: images/Pivot_Performance_Top5-LastSeason_In_Seasons201
-819-201718.png  used on input line 464.
+819-201718.png  used on input line 463.
 (pdftex.def)             Requested size: 252.0pt x 80.87057pt.
 <images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png, id=18
 , 575.14874pt x 388.45125pt>
@@ -256,7 +268,7 @@ File: images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png G
 raphic file (type png)
 <use images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png>
 Package pdftex.def Info: images/BarGraph_Performance_Top5-LastSeason_In_Seasons
-201819-201718.png  used on input line 470.
+201819-201718.png  used on input line 469.
 (pdftex.def)             Requested size: 252.0pt x 170.19594pt.
 <images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png, id=19, 
 663.07726pt x 375.20175pt>
@@ -264,38 +276,37 @@ File: images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png Gra
 phic file (type png)
 <use images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png>
 Package pdftex.def Info: images/BarGraph_Comparison_BayernMunich-Dortmund_LastT
-hreeSeasons.png  used on input line 478.
+hreeSeasons.png  used on input line 477.
 (pdftex.def)             Requested size: 252.0pt x 142.5953pt.
-
-Underfull \vbox (badness 1215) has occurred while \output is active []
-
 
 No file Group_SoccerStats_paper.bbl.
 [3 <./images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718.png> <./
 images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718.png> <./ima
 ges/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons.png>]
-(./Group_SoccerStats_paper.aux)
+(Group_SoccerStats_paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2226 strings out of 492163
- 36627 string characters out of 6129076
- 105995 words of memory out of 5000000
- 6595 multiletter control sequences out of 15000+600000
- 36708 words of font info for 72 fonts, out of 8000000 for 9000
+ 2224 strings out of 492482
+ 37543 string characters out of 3121575
+ 105222 words of memory out of 3000000
+ 6575 multiletter control sequences out of 15000+200000
+ 36708 words of font info for 72 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 30i,6n,26p,987b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times
-/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/t
-exlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Group_SoccerStats_paper.pdf (3 pages, 254018 bytes).
+ 30i,6n,26p,1089b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/eugen/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Users/eugen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/urw/times/utmb8a.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/eugen/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Group_SoccerStats_paper.pdf (3 pages, 266743 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
