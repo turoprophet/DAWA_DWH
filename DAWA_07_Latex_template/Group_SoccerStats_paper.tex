@@ -378,7 +378,7 @@ A big amount of data from the past Bundesliga games is needed to give the soccer
 \subsection{Structure of the Paper} \label{subsec:struct}
 In order to achieve a logical structure of the project, it’s sensible to orientate us by the CRISP-DM model. The following steps don't include only the CRISP-DM approach!
 The paper is structured as follows: in Section~\ref{sec:dataunderstanding} we present the availability of Open Data we use in this project.
-Then, in Section~\ref{sec:concept} we describe our tools to create our Data Warehouse and to generate analysis from it. Section~\ref{sec:impl} we descripe the Data Preparation for our Data Warehouse. In Section~\ref{sec:further} we explain the input our Data and the CDHW and the Data Mart.  In Section~\ref{sec:analy} we analyze the result of our data. Finally, we conclude our work in Section~\ref{sec:concl} with our achievments and a feedback of this project.
+Then, in Section~\ref{sec:concept} we describe our tools to create our Data Warehouse and to generate analysis from it. Section~\ref{sec:impl} we describe the Data Preparation for our Data Warehouse. In Section~\ref{sec:further} we explain the how we input the data and the CDHW and the Data Mart.  In Section~\ref{sec:analy} we analyze the result of our data. Finally, we conclude our work in Section~\ref{sec:concl} with our achievements and a feedback of this project.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -405,7 +405,7 @@ the information of interest such as date and division of the match played, home 
 shots, shots on target, red and yellow cards were kept too.
 
 The date format in the data source didn't match the representation we preferred to talk about: Typically sports leagues are distributed into 
-match weeks or rounds, where teams get to face one team per round and all teams play. The german bundesliga has in total 34 match weeks, with a
+match weeks or rounds, where teams get to face one team per round and all teams play. The German Bundesliga has in total 34 match weeks, with a
 sum of 9 matches per match week. The Date information was then transformed to an integer value between [1, 34] for this representation.
 
 Other information of interest that did not come from the data source was the location of each match. From the 10 seasons the data source supplied,
@@ -461,13 +461,13 @@ In Figure 3 and 4 we analyze 5 teams in a period of the last 2 seasons. In the c
 \begin{figure}[htb]
 	\centering
 		\includegraphics[width=1.0\columnwidth]{images/Pivot_Performance_Top5-LastSeason_In_Seasons201819-201718}
-	\caption{Performance from 5 Teams in the last two Seasion }
+	\caption{Performance from 5 Teams in the last two seasons }
 	\label{tab:probov}
 \end{figure}
 \begin{figure}[htb]
 	\centering
 		\includegraphics[width=1.0\columnwidth]{images/BarGraph_Performance_Top5-LastSeason_In_Seasons201819-201718}
-	\caption{Performance from 5 Teams in the last two Seasion }
+	\caption{Performance from 5 Teams in the last two seasons }
 	\label{fig:probov}
 \end{figure}
 
@@ -475,7 +475,7 @@ In Figure 5 we compare the two teams Bayern Munich and Borussia Dortmund over th
 \begin{figure}[htb]
 	\centering
 		\includegraphics[width=1.0\columnwidth]{images/BarGraph_Comparison_BayernMunich-Dortmund_LastThreeSeasons}
-	\caption{Comparison between Dortmund and Bayern Munich over the last 3 season}
+	\caption{Comparison between Dortmund and Bayern Munich over the last 3 seasons}
 	\label{fig:probov}
 \end{figure}
 
